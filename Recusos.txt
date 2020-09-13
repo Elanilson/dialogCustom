@@ -1,0 +1,26 @@
+
+
+	<style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="borderlessButtonStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    //material desing
+    implementation 'com.google.android.material:material:1.2.0-alpha02'
+
+    //Rounded Image View
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+
+<com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/perfil"
+            app:riv_corner_radius="10dp" />
+
+
